@@ -21,7 +21,7 @@ function promise(){
 
 // This allows for different values to be pulled from the API
 function createEndpoint(index){
-    return "https://swapi.co/api/people/" + index + '/';
+    return "https://swapi.dev/api/people/" + index + '/';
 }
 
 // Deletes any existing data on the page in that moment.
